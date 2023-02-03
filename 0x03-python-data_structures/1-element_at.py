@@ -4,3 +4,5 @@ def element_at(my_list, idx):
         print('{}'.format('None'))
     elif idx > len(my_list):
         print('{}'.format('None'))
+    else:
+        print()
