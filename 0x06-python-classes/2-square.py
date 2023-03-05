@@ -20,9 +20,11 @@ class Square:
             try:
                 pass
             except TypeError:
-                print("size must be an integer")
+              errmsg =  print("size must be an integer")
+              return(errMsg)
         if size < 0:
             try:
                 pass
             except ValueError:
-                print('size must be >= 0')
+               errmess =  print('size must be >= 0')
+               return(errmess)
