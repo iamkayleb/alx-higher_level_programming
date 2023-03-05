@@ -3,4 +3,5 @@
 
 class Square:
     "Creating a square class"
-    size = None
+    def __init__(self):
+       self. __size = none
