@@ -19,10 +19,6 @@ def add_integer(a, b=98):
         raise TypeError("a must be an integer")
     elif not isinstance(b, (int, float)):
         raise TypeError("b must be an integer")
-    elif isinstance(a, float):
-        int(a)
-    elif isinstance(b, float):
-        int(b)
-    else:
-        print('We are all good')
-    return (a + b)
+    elif type(sum(a, b)) is float:
+        return (sum(a, b))
+    return (sum(a, b))
