@@ -1,0 +1,7 @@
+Function prints put name of person
+    >>> say_my_name("Caleb", "Ogbike")
+    Caleb Ogbike
+
+first_name and last_name must be strings
+    >>> say_my_name("Caleb", 10)
+    TypeError: last_name must be a string
