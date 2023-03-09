@@ -11,5 +11,11 @@ def matrix_divided(matrix, div):
             raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
         elif isinstance(matrix[elms], (int, float)):
             matrix.append(elms)
-        
-        
+
+    for sec in matrix:
+         list(sec)
+         if not isinstance(matrix[sec], (int, float)):
+             raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
+         elif isinstance(matrix[sec], (int, float)):
+             matrix.append(sec)
+       
