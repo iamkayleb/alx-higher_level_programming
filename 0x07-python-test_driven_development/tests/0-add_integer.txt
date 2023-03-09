@@ -17,3 +17,8 @@ Function also works with floating point values but values will be casted to inte
 
     >> add_integer(2, 1.4)
     3
+
+When writing parameters in functions, always give a space between the two parameters i.e``àdd_functions(first, second)``
+
+    >> add_integer(1,2)
+    SyntaxError: invalid syntax
